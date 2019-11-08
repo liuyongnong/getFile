@@ -8,7 +8,7 @@ import java.util.concurrent.*;
 
 public class Example3 {
     public static void main(String[] args) throws Exception{
-        File directory = new File("D:\\lyn");
+        File directory = new File("");
         // 轮询间隔 5 秒
         long interval = TimeUnit.MILLISECONDS.toMillis(10);
         // 创建一个文件观察器用于处理文件的格式
